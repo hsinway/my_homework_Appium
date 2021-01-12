@@ -4,7 +4,7 @@ from appium.webdriver.common.mobileby import MobileBy
 from appium.webdriver.webdriver import WebDriver
 from selenium.webdriver.support.wait import WebDriverWait
 
-from test_frame.black_handle import black_wrapper
+from test_frame.black_handle import black_wrapper, BlackList
 
 
 class BasePage:
@@ -12,8 +12,7 @@ class BasePage:
     def __init__(self, driver: WebDriver = None):
         self.driver = driver
         # 获取黑名单,参考：黑名单类
-        # self.black_list = BlackList().black_list
-        # self.black_list=Black()
+        self.black_list = BlackList().black_list
 
     def screenshot(self, pic_path):
         return self.driver.save_screenshot(pic_path)

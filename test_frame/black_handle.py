@@ -38,7 +38,7 @@ def black_wrapper(fun):
             # 添加到allure报告里
             self.allure_add_screenshot("../screenshot/popup.png", "popup")
             # 获取黑名单
-            black_list = BlackList().black_list
+            black_list = self.black_list
             # 遍历黑名单中的元素，进行处理
             for black_locator in black_list:
                 eles = self.finds(*black_locator)
