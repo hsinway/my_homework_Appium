@@ -1,0 +1,8 @@
+[32mINFO    [0m root:black_handle.py:31 start find: 
+args: ('xpath', "//*[@resource-id='com.xueqiu.android:id/post_status']") kwargs: {}
+[32mINFO    [0m root:black_handle.py:31 start find: 
+args: ('xpath', "//*[@resource-id='android:id/tabs']//*[@text='行情']") kwargs: {}
+[32mINFO    [0m root:black_handle.py:31 start find: 
+args: ('xpath', "//*[@resource-id='com.xueqiu.android:id/action_search']") kwargs: {}
+[32mINFO    [0m root:black_handle.py:31 start find: 
+args: ('xpath', "//*[@resource-id='com.xueqiu.android:id/search_input_text']") kwargs: {}
